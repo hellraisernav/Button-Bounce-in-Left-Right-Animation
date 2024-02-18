@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #7f6edf;
+    --secondary-color: #ff1200;
+    --text-color: #fff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    margin: 10px;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-1 {
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-1:hover {
+    box-shadow: var(--primary-color) 180px 0px 0px 1px inset;
+    color: var(--text-color);
+}
+
+.btn-2 {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.btn-2:hover {
+    box-shadow: var(--secondary-color) -180px 0px 0px 0px inset;
+    color: var(--text-color);
+}
